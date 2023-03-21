@@ -17,14 +17,14 @@ const Counter = () => {
     <main className={classes.counter}>
       <h1>Redux Counter</h1>
       <div className={classes.value}>{counter}</div>
-      <button onClick={increaseHandler}>+</button>
+      <button onClick={increaseHandler}>+ by 5</button>
       <br />
       <br />
       <button onClick={toggleCounterHandler}>Toggle Counter</button>
       <br />
       <br />
      
-      <button onClick={descreaseHandler}>-</button>
+      <button onClick={descreaseHandler}>- by 5</button>
     </main>
   );
 };
